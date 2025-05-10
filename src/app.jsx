@@ -1,6 +1,7 @@
 import { useState } from 'preact/hooks'
 import './app.css'
 import Navbar from './components/Navbar/Navbar'
+import MovieList from './components/MovieList/MovieList'
 
 export function App() {
 
@@ -8,7 +9,7 @@ export function App() {
     <>
     <div className='app'>
       <Navbar />
-      <main>Main content</main>
+      <MovieList />
     </div> 
     </>
   )
